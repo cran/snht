@@ -1,0 +1,10 @@
+f47c45bfcca888c97e793773cbfeade2 *DESCRIPTION
+7aeed305b319b03aa4141973c84ef901 *NAMESPACE
+d692d877eed9bcadd72cf91dfdca0e9f *R/pairwiseSNHT.R
+3c8bb9e7ec037ca0a990f5161174bd90 *R/robustSNHT.R
+2768e40a23822bc49f287b1508138ae6 *R/robustSNHTunequal.R
+439b1e4a973d11c8d37c5c3b24ef5a48 *R/snht.R
+2dbd4b55b4860530d4e1a150aeb618ad *README.md
+7dffaf77bae7095c4f2ea10e21d14570 *man/pairwiseSNHT.Rd
+19541e7fedc3b8826476639bd8f941b3 *man/snht-package.Rd
+7ecf170057f4ff8d4abd40a231e53d9a *man/snht.Rd
