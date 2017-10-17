@@ -13,4 +13,3 @@ deviation, and this function will be used for computing the test statistic.
 The only function you're likely to need from \pkg{snht} is 
 \code{\link{snht}}. Otherwise refer to the vignettes.
 }
-

@@ -26,4 +26,3 @@ No object is returned, but a plot is instead generated.
 \description{
 Function to plot the result of the SNHT fit
 }
-

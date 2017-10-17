@@ -60,9 +60,6 @@ Large values of the test statistic suggests the presence of a changepoint.
 Haimberger (see references) suggests values larger than 100 should be
 considered changepoints.  However, this does not apply if scaled = TRUE.
 }
-\author{
-Josh Browning (jbrownin@mines.edu)
-}
 \references{
 L. Haimberger. Homogenization of radiosonde temperature time
 series using innovation statistics. Journal of Climate, 20(7): 1377-1403,
@@ -71,10 +68,12 @@ series using innovation statistics. Journal of Climate, 20(7): 1377-1403,
 \seealso{
 \code{\link{huber}}
 
-Other snht.functions: \code{\link{robustSNHTunequal}},
+Other snht functions: \code{\link{robustSNHTunequal}},
   \code{\link{snht}}
+}
+\author{
+Josh Browning (jbrownin@mines.edu)
 }
 \keyword{~homogeneity}
 \keyword{~robust}
 \keyword{~snht}
-

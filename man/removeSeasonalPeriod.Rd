@@ -25,4 +25,3 @@ model.  The data series with the seasonal period removed is then returned.
 \author{
 Josh Browning (jbrownin@mines.edu)
 }
-

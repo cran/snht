@@ -85,10 +85,6 @@ out = snht( data, period=50, time=time, robust=FALSE )
 summary(out)
 
 }
-\author{
-Josh Browning (jbrownin@mines.edu), Carina Schneider
-  (carina.schneider@uzh.ch)
-}
 \references{
 L. Haimberger. Homogenization of radiosonde temperature time 
   series using innovation statistics. Journal of Climate, 20(7): 1377-1403, 
@@ -97,9 +93,12 @@ L. Haimberger. Homogenization of radiosonde temperature time
 \seealso{
 \code{\link{huber}}
 
-Other snht.functions: \code{\link{robustSNHTunequal}},
+Other snht functions: \code{\link{robustSNHTunequal}},
   \code{\link{robustSNHT}}
+}
+\author{
+Josh Browning (jbrownin@mines.edu), Carina Schneider
+  (carina.schneider@uzh.ch)
 }
 \keyword{~homogeneity}
 \keyword{~snht}
-

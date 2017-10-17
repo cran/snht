@@ -34,4 +34,3 @@ j that occured at time i. For example, suppose location i_1 was paired with
 i_2, i_3, and i_4.  If the statistic for i_1-i_2 and i_1-i_4 exceeded the
 threshold at time j, then candidate_{i,j} = 2.
 }
-

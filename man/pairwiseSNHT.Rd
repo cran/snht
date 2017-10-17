@@ -64,9 +64,13 @@ data that could affect the basic snht.  For example, seasonal and linear
 trends that exist globally will be removed from the difference series, and
 thus changepoints are more easily detected.
 }
-\author{
-Josh Browning (jbrownin@mines.edu)
-keyword ~snht ~homogeneity ~pairwise
+\examples{
+dist = matrix(1, nrow=2, ncol=2)
+colnames(dist) = c(1, 2)
+rownames(dist) = c(1, 2)
+dist = dist - diag(2)
+pairwiseSNHT(data=data.frame(data=c(rep(1, 10), rep(2, 10), rep(3, 10), rep(4, 10)),
+                             location=rep(1:2, each=10)), dist=dist, k=1, period=2)
 }
 \references{
 L. Haimberger. Homogenization of radiosonde temperature time
@@ -76,4 +80,7 @@ series using innovation statistics. Journal of Climate, 20(7): 1377-1403,
 Menne, M. J., & Williams Jr, C. N. (2009). Homogenization of temperature
 series via pairwise comparisons. Journal of Climate, 22(7), 1700-1717.
 }
-
+\author{
+Josh Browning (jbrownin@mines.edu)
+keyword ~snht ~homogeneity ~pairwise
+}

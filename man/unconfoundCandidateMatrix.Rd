@@ -42,4 +42,3 @@ location where the changepoint occurs.  Assignment of changepoints should
 then proceed iteratively, where each new changepoint is assigned based on
 the current highest count.
 }
-

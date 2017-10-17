@@ -21,4 +21,3 @@ For each location, we wish to determine the k closest locations.  This
 function takes the distance matrix and computes the returns a list of the
 k closest locations to each individual location.
 }
-

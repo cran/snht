@@ -20,4 +20,3 @@ location j will be used for location i.  Thus, the pairs object will likely
 have many duplicate pairs.  To save computation time, this function finds
 which pairs are unique.
 }
-
